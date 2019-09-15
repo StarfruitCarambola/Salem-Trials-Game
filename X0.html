@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--Raymond Kwok-->
+<html>
+	<head>
+		<title></title>
+		<style></style>
+		<link rel = "stylesheet" type = "text/css" href = "salem.css" />
+		<script>
+
+		function initialize()
+		{
+			theOption1 = document.getElementById("option1");
+			theOption2 = document.getElementById("option2");
+			theText = document.getElementById("text");
+			theAbbyWitch = document.getElementById("abbyWitch");
+		}
+		
+		
+			
+		</script>
+	</head>
+	<body onload = "initialize();">
+		<img id = "bkgr" src = "images/tabletop.jpg" />
+		<div id = "mainContainer"> 
+			<div id = "theScene">
+				<img id = "scroll" src = "images/scroll.png" />
+				<img id = "theMap" src = "images/map.png">
+				<span id = "text"> 
+					After a couple hours, the two guards bring you from your cell down the hall to a large rooms. 
+					There is fireplace burns warmly in the corner along with various benches and metal tools on the side.
+					A man with a large robe is sitting behind a table. <br/><br/>
+					
+					He speaks, "Welcome to the questioning chamber. 
+					I am Doctor Obadiah, the magistrate here to investigate the scourge of witchcraft here in Salem.
+					You have been accused on good evidence of the crime of witchcraft. If you answer my questions, we do not need to resort to torture. 
+					If, however, you resist the truth, you will suffer through the infernal machinations of Hell. Then we must compel you to answer. 
+					Will you confess to being a witch?" <br/><br/>
+                    
+					You say: <br/><br/>
+					<a id = "option1" class = "button" href = "X1A.html"> "I confess. I am a witch." </a><br/>
+
+					<a href = "salemTrials.html"><img id = "abbyWitch" src = "images/abby2.png" /></a>
+				</span>
+				<br/><br/>
+			</div> 
+		</div>
+	</body>
+</html>
