@@ -3,9 +3,7 @@ By Raymond Kwok
 
 Description
 -------------
-Used Javascript to create a decision based game. 
-Worked on it for a couple days but had to stop due to time constraints.
-
+Used HTML and CSS to create a decision based game. 
 
 Playing the Game
 -----------------
