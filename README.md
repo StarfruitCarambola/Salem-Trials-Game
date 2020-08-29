@@ -3,7 +3,7 @@ By Raymond Kwok
 
 Description
 -------------
-Used HTML and CSS to create a decision based game. 
+Used HTML and CSS to create a decision based game. Old project and I may or may not update it in the future.
 
 Playing the Game
 -----------------
